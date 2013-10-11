@@ -29,14 +29,18 @@ A good place to start is the included IPython notebook [viewable on-line here](h
 
 ## Running the software
 The program should be invoked as:
- 
-> python ews.py SEED NUMBER_OF_STRATEGIES NUMBER_OF_REPETITIONS DISTRIBUTION_TYPE
+
+```bash 
+python ews.py SEED NUMBER_OF_STRATEGIES NUMBER_OF_REPETITIONS DISTRIBUTION_TYPE
+```
 
 *DISTRIBUTION_TYPE* is 0 for uniformly distributed games, or 1 for sampling from a Gaussian distribution. 
 
 For example
 
-> python ews.py 8902 5 1000 0
+```bash 
+python ews.py 8902 5 1000 0
+```
 
 will generate 1000 uniformly distributed random games of size 5, and count the number of rank changes and changes in the most abundant strategy for every game. 
 
@@ -47,7 +51,9 @@ These counts are stored in a dictionary that has the number of changes as keys, 
 
 For unit tests please run 
 
-> python tests.py 
+```bash
+python tests.py 
+```
 
 ## License
 
