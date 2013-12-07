@@ -1,6 +1,6 @@
 ## Introduction
 
-This software performs the simulations for the paper **Extrapolating weak selection in evolutionary games**, by *Bin Wu*, *Julian Garcia*, *Christoph Hauert* and *Arne Traulsen*. 
+This software performs the simulations for the paper: **Extrapolating weak selection in evolutionary games**, by *Bin Wu*, *Julian Garcia*, *Christoph Hauert* and *Arne Traulsen*. [Journal link.](dx.doi.org/10.1371/journal.pcbi.1003381)
 
 A good place to start is the included IPython notebook [viewable on-line here](http://nbviewer.ipython.org/urls/raw.github.com/juliangarcia/ews/master/notebook.ipynb)
 
